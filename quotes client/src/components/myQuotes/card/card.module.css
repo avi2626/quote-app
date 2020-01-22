@@ -1,0 +1,11 @@
+.card{ overflow: unset;}
+.CardContent{display: flex; flex-direction: column;}
+.avtarFlex{display: flex; padding-bottom:10px;}
+.avatrText{padding-left:15px; padding-top: 5px;}
+.quote{width: 402px;}
+.cardActions{display: flex;}
+.delete{margin-left: auto;}
+
+@media screen and (max-width: 600px) {
+    .quote{width: 240px;}
+  }

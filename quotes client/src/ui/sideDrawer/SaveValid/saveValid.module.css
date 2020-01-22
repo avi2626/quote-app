@@ -1,0 +1,24 @@
+.saveValid{
+    position: absolute; 
+    right: 0;
+    font-size: 36px;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: white;
+    transition: transform 0.3s ease-out;
+    z-index: 100;
+}
+    .open{
+        transform: translateY(0);
+    }
+    .close{
+        transform: translateY(-100%);
+    }
+.text{transition:color 1.5s linear;}   
+.esc{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 60%;
+}
+    .esc:active{transform: translateY(4px);}

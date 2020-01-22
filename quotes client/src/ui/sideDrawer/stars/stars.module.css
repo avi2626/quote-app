@@ -1,0 +1,8 @@
+.stars{
+    font-size: 2rem;
+}
+@media screen and (max-width: 600px) {
+    .stars {
+      font-size: 110%;
+    }
+  }

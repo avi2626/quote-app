@@ -1,0 +1,27 @@
+.quoteBox{display: flex;flex-direction: column;justify-content: space-between;
+    width: 500px;min-height: 395px;margin: auto;padding: 30px; 
+    border-radius: 50px;box-sizing:border-box; background-color: white; 
+    position: relative;}
+.icon{bottom: 23px;right: 125px;font-size: 44px;
+   position: absolute; transition: color 1.5s linear;}
+.icon:active{transform: translateY(4px);}
+.quote{width: 400px;font-size: 30px;font-family: 'Courier Prime', monospace; 
+    transition: color 1.5s linear;}
+.source{bottom: 80px;right: 30px;font-size: 36px;font-family: 'Italianno', cursive;
+    transition: color 1.5s linear;margin-left: auto;}
+.buttonFlexbox{display: flex;align-items: center; }
+.newQuote{margin-left:auto}
+.button{padding: 5px;font-size: 16px;border-radius: 15px; 
+    text-align: center;color: white;
+    transition: background-color 1.5s linear;}
+.button:hover{border-color: black;}
+.button:active{transform: translateY(4px);}
+.loding{margin:auto}
+
+
+@media (max-width: 500px) {
+        .quoteBox{width: 100%; min-width: unset;margin-top: 60px;margin-bottom: 10px;}
+        .quote{width: 50vh;}
+
+    
+  }

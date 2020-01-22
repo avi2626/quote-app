@@ -1,0 +1,15 @@
+.App{display:flex;min-width: 100vw;min-height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;transition: background-color 2s linear;}
+.hamberger{font-size: 62px; left: 85px;top: 40px;color: white;position: absolute;}
+        .hamberger:active{transform: translateY(4px);}
+        .alert{position: absolute;
+            top: 50%;
+            left: 50%;
+            height: 80px;
+            transform: translate(-50%, -50%);
+            width: 300px;}
+
+            @media (max-width: 800px) {
+               .hamberger{top:0;left:5px;} 
+              }

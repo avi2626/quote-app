@@ -1,0 +1,17 @@
+.SideDrawer {position: fixed;width: 280px;max-width: 70%;height: 100%;
+    left: 0;top: 0; z-index: 200;font-size: 40px;font-weight: bold;
+    background-color: white;padding: 32px 16px;box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+   }
+.esc{position:absolute;top:13px;right: 26px;}
+    .esc:active{transform: translateY(4px);}
+.navLi{margin: 36px;padding-bottom: 8px;width: max-content;text-decoration: none;}
+    .navLi:active{transform: translateY(4px);}
+.Open{transform: translateX(0);}
+.Close{transform: translateX(-200%);}
+.active{text-decoration: underline;}
+a{text-decoration: none;color:unset}
+
+@media screen and (max-width: 600px) {
+    .ul{margin-left: -40px;}
+  }
